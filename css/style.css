@@ -1,0 +1,360 @@
+
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+#loader{
+         width: 100%;
+         height: 100vh;
+         background:#fff url('../images/loader.gif') center;
+         background-repeat :no-repeat;
+         position: fixed;
+         z-index: 999;
+
+
+      }
+
+
+
+header{
+		background: url(../images/header.jpg) no-repeat center center;
+		background-size:cover;
+	 	height:500px;
+	 	width: 100%;
+	 	
+	
+	 	
+	 }
+
+nav{
+
+	border: 1px solid white;
+	width: 100%;
+	height: 80px;
+	background: black;
+
+}
+
+nav ul li{
+	padding:10px;
+}
+
+nav ul{
+	margin-right: 100px;
+}
+
+span{
+	font-size:40px;
+	color:white;
+	font-family:arial;
+	font-weight: bold;
+}
+
+.contact{
+	width: 100px;
+	height: 40px;
+	background: white;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+.head_container{
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.head_container p{
+	font-size: 20px;
+	color: white;
+}
+
+.head1{
+	font-size: 60px;
+	color:yellow;
+	font-weight: bold;
+
+}
+
+.btn1{
+	width: 120px;
+	height: 40px;
+	background: yellow;
+	color: black;
+	border-radius: 10px;
+
+}
+
+
+
+
+
+
+.about{
+	
+	
+	padding-top: 50px;
+}
+
+
+
+.about_p{
+	font-size: 25px;
+}
+
+.about_col2{
+	text-align:left;
+}
+
+.about_btn{
+	width: 120px;
+	height: 40px;
+	background: black;
+	color: white;
+}
+
+
+
+.about_col1 img{
+	width: 500px;
+	height: 400px;
+
+}
+.price_col2{
+	background: grey;
+}
+
+ .img1{
+	width:100%;
+	height: 100%;
+}
+
+
+.price_col2{
+	background-color: grey;
+	
+}
+
+.div1{
+	width: 80%;
+	border:none;
+	border-bottom: 1px solid white;
+}
+
+.styles{
+	padding-top: 60px;
+}
+
+
+
+
+.style_h2{
+	color: red;
+}
+
+.style_col1 img{
+	width: 570px;
+	height: 350px;
+
+}
+
+
+
+
+.testimonials h1{
+	color: white;
+}
+
+.testimonials{
+	background: #313131;
+	padding-top: 60px;
+
+}
+
+
+
+#demo1 p{
+	color: white;
+
+}
+
+.testimonials h3{
+	color: red;
+}
+
+.contact{
+	text-align: center;
+}
+
+.form input{
+	width: 100%;
+	height: 40px;
+
+}
+
+.form textarea{
+
+	width: 100%;
+	height: 100px;
+
+
+}
+
+.form_col1{
+	background-color: yellow;
+}
+
+
+.cont_btn{
+	width: 150px;
+	height: 40px;
+	margin-left: -100px;
+	background:black;
+	color: yellow;
+}
+
+.footer{
+	background: #313131;
+	width: 100%;
+	height: 80px;
+	padding-top: 17px;
+}
+
+
+
+.form_img{
+	width:100%;
+	height:100%;
+}
+
+
+
+						/*---gallary--*/
+
+.gallary{
+	padding-top: 60px;
+}
+
+.image_box div{
+	width: 320px;
+	height: 250px;
+
+}
+
+
+.image_box .icon_box{
+	padding-top: 10px;
+}
+
+
+
+.image_box .icon_box{
+	width: 150px;
+	height: 60px;
+	background-color: yellow;
+	color: black;
+	position: absolute;
+	top: 140%;
+	transition:margin-top 500s;
+	transition:1s ease;
+	margin-left: 80px;
+	
+	}
+
+	
+
+.image_box{
+	position: relative;
+	
+	
+	overflow: hidden;
+}
+
+.image_box:hover  img{
+
+	opacity:0.5;
+
+}
+
+
+
+.image_box:hover .icon_box{
+	top:45%;
+
+}
+
+
+ #myBtn3{
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:black; /* Set a background color */
+  color: red; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn3:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+.about_col1 img{
+	width: 300px;
+
+}
+
+.head1{
+	font-size: 30px;
+}
+
+.head_container{
+	margin-top: -90px;
+}
+
+#Navbar1{
+	background-color: black;
+}
+
+.price_col1 img{
+	width: 300px;
+}
+
+.style_col1 img{
+	width: 300px;
+	height: 300px;
+	margin: 5px;
+}
+
+.brand span{
+	font-size: 30px;
+}
+
+
+}
